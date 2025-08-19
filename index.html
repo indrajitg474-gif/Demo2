@@ -1,32 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Neon AI Image Search</title>
-  <link rel="stylesheet" href="styles.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>AI Image Search</title>
 </head>
 <body>
-  <div class="neon-bg"></div>
-  <header>
-    <h1 class="neon-text">AI Image Search</h1>
-    <p class="subtitle">Search images with the power of AI</p>
-  </header>
-  <main>
-    <form class="search-form">
-      <input type="text" placeholder="Describe your image..." class="search-input" />
-      <button type="submit" class="search-btn">Search</button>
-    </form>
-    <section class="results">
-      <!-- Images will be shown here -->
-      <div class="placeholder">
-        <p>Results will appear here...</p>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p class="footer-text">© 2025 Neon AI Image Search</p>
-  </footer>
+    <h1>AI Image Search</h1>
+    <input type="text" placeholder="Search for images..." id="searchInput">
+    <button id="searchButton">Search</button>
+    <div id="imageResults"></div>
+    <script src="script.js"></script>
 </body>
 </html>
